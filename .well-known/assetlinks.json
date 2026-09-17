@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.felipecampos.pills",
+      "sha256_cert_fingerprints": [
+        "EB:A8:64:01:E4:8D:7A:B6:C9:EB:53:01:E2:DB:9C:A0:83:4A:DE:8B:1C:E4:77:E2:EF:52:4D:8A:B1:62:CA:D6"
+      ]
+    }
+  }
+]
