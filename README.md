@@ -1,5 +1,10 @@
 # felipers84.github.io
 
-Site de usuário do GitHub Pages. Existe só para servir `/.well-known/`
-(App Links do Android e Universal Links do iOS) para o app Doses de Lupita,
-que mora em https://felipers84.github.io/lupita/.
+Site do app **Doses de Lupita**, servido pelo GitHub Pages:
+
+- `lupita/` — página do app, política de privacidade, exclusão de conta e
+  a página do link de convite.
+- `.well-known/` — App Links (Android) e Universal Links (iOS).
+
+Não edite aqui: a fonte é a pasta `docs/` do repositório do app, e
+`tool/publish_site.sh` espelha para cá.
