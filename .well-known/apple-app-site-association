@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["ZNEJQD7C3T.br.com.felipecampos.pills"],
+        "appIDs": ["ZNEJQD7C3T.br.com.felipecampos.lupita"],
         "components": [
           { "/": "/lupita/convite/*", "comment": "Convite para acompanhar um paciente" }
         ]
