@@ -1,12 +1,14 @@
 # felipers84.github.io
 
-Site do app **Doses de Lupita**, servido pelo GitHub Pages:
+O site do app **Lupita** mudou para https://doseslupita.online (página
+inicial, política de privacidade, exclusão de conta e `app-ads.txt`). Aqui
+fica o que os links do app usam:
 
-- `lupita/` — página do app, política de privacidade, exclusão de conta e
-  a página do link de convite.
+- `lupita/convite/` — a página do link de convite para acompanhar um
+  paciente.
 - `.well-known/` — App Links (Android) e Universal Links (iOS).
-- `app-ads.txt` — autoriza o Google AdMob a vender os anúncios do app; o
-  AdMob só procura na raiz do domínio.
+- `lupita/index.html`, `privacidade.html` e `excluir-conta.html` —
+  redirecionamentos para os endereços novos.
 
 Não edite aqui: a fonte é a pasta `docs/` do repositório do app, e
-`tool/publish_site.sh` espelha para cá.
+`tool/publish_site.sh` atualiza este repositório.
