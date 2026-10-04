@@ -3,36 +3,138 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lupita</title>
+<title>Lupita — controle e histórico de medicação para os seus animais</title>
+<meta name="description" content="Lupita mostra as doses do dia de cada animal em tratamento, lê a receita pela foto e guarda o histórico do mês. Gratuito, sem cadastro e funciona sem internet.">
+<meta property="og:title" content="Lupita">
+<meta property="og:description" content="Controle e histórico de medicação para os seus animais.">
+<meta property="og:image" content="https://felipers84.github.io/lupita/img/compartilhar.jpg">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#FAEFDF">
+<link rel="icon" href="img/icone-48.png">
+<link rel="apple-touch-icon" href="img/icone-180.png">
 <link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="inicio.css">
 </head>
-<body>
-<main>
+<body class="inicio">
 
-<header>
-  <p class="app">Aplicativo</p>
-  <h1>Lupita</h1>
-  <p class="data">Controle e histórico de medicação para os seus animais.</p>
-</header>
+<section class="hero">
+  <div class="hero-texto">
+    <img class="letreiro" src="img/letreiro.webp" alt="Lupita" width="350" height="149">
+    <p class="sobretitulo">Para iPhone e Android</p>
+    <h1>Já dei o remédio das nove?</h1>
+    <p class="chamada">
+      Lupita responde em um toque: a agenda do dia de cada animal em
+      tratamento, dose por dose, e o histórico do mês inteiro.
+    </p>
+    <ul class="selos">
+      <li>Gratuito</li>
+      <li>Sem cadastro</li>
+      <li>Funciona sem internet</li>
+    </ul>
+  </div>
+  <div class="hero-arte" aria-hidden="true">
+    <div class="retrato">
+      <img src="img/lupita.webp" alt="" width="360" height="379">
+    </div>
+    <div class="aparelho hero-aparelho">
+      <img src="img/tela-hoje.webp" alt="" width="300" height="610">
+    </div>
+  </div>
+</section>
 
-<p>
-  Quando um animal está em tratamento, a pergunta que aparece toda hora é
-  sempre a mesma: já dei o remédio das nove? Lupita responde isso
-  em um toque — a agenda do dia, dose por dose, e o histórico do mês inteiro.
-</p>
+<section class="recursos">
+  <h2>O que dá para fazer</h2>
+  <div class="grade">
+    <article class="recurso">
+      <span class="recurso-icone">
+        <svg viewBox="0 0 24 24"><path d="M5 12.5l4 4L19 7"/></svg>
+      </span>
+      <h3>As doses do dia, uma por uma</h3>
+      <p>Manhã, tarde e noite em ordem. Cada dose é um toque: dei, não dei —
+        com o motivo — ou dei fora do horário.</p>
+    </article>
+    <article class="recurso">
+      <span class="recurso-icone">
+        <svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="3"/><path d="M8.5 7l1.5-3h4l1.5 3"/><circle cx="12" cy="13.5" r="3.5"/></svg>
+      </span>
+      <h3>A receita pela foto</h3>
+      <p>Fotografe a receita e os remédios são lidos no próprio aparelho.
+        Você confere cada um antes de cadastrar.</p>
+    </article>
+    <article class="recurso">
+      <span class="recurso-icone">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
+      </span>
+      <h3>Como o veterinário receitou</h3>
+      <p>A cada 8, 12 ou 48 horas, de manhã e à noite, por sete dias ou de
+        uso contínuo — sem fazer conta.</p>
+    </article>
+    <article class="recurso">
+      <span class="recurso-icone">
+        <svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+      </span>
+      <h3>O mês inteiro em um olhar</h3>
+      <p>O calendário mostra como foi cada dia, e cada remédio diz quanto do
+        tratamento foi dado.</p>
+    </article>
+    <article class="recurso">
+      <span class="recurso-icone">
+        <svg viewBox="0 0 24 24"><circle cx="7" cy="9" r="2"/><circle cx="17" cy="9" r="2"/><circle cx="10" cy="5" r="2"/><circle cx="14" cy="5" r="2"/><path d="M12 12c-3 0-5.5 3-5.5 5.2 0 1.5 1.3 2.3 2.8 1.9 1-.3 1.8-.5 2.7-.5s1.7.2 2.7.5c1.5.4 2.8-.4 2.8-1.9C17.5 15 15 12 12 12z"/></svg>
+      </span>
+      <h3>Vários pacientes</h3>
+      <p>Cada animal com os próprios remédios, horários e histórico. A troca
+        fica no rosto, no alto da tela.</p>
+    </article>
+    <article class="recurso">
+      <span class="recurso-icone">
+        <svg viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
+      </span>
+      <h3>Sem cadastro, sem internet</h3>
+      <p>Tudo o que você anota fica salvo no aparelho. Dá para usar no
+        consultório, no sítio ou no avião.</p>
+    </article>
+  </div>
+</section>
 
-<div class="cartao">
-  <h3 style="margin-top:0">Documentos</h3>
-  <ul>
-    <li><a href="privacidade.html">Política de Privacidade</a></li>
-    <li><a href="excluir-conta.html">Excluir a conta e os dados</a></li>
-  </ul>
-</div>
+<section class="telas">
+  <h2>Por dentro</h2>
+  <div class="galeria">
+    <figure>
+      <div class="aparelho"><img src="img/tela-hoje.webp" alt="A tela Hoje, com as doses da manhã de Lupita e os botões de dei e não dei" width="300" height="610" loading="lazy"></div>
+      <figcaption>As doses de hoje</figcaption>
+    </figure>
+    <figure>
+      <div class="aparelho"><img src="img/tela-remedios.webp" alt="A lista de remédios em uso, com dose, horários e duração" width="300" height="610" loading="lazy"></div>
+      <figcaption>Toda a receita em um lugar só</figcaption>
+    </figure>
+    <figure>
+      <div class="aparelho"><img src="img/tela-detalhe.webp" alt="A ficha de um remédio, com horários, início, término e a adesão do tratamento" width="300" height="610" loading="lazy"></div>
+      <figcaption>Quanto de cada remédio foi dado</figcaption>
+    </figure>
+    <figure>
+      <div class="aparelho"><img src="img/tela-motivo.webp" alt="A escolha do motivo de uma dose não dada: não comeu, esqueci, acabou o remédio" width="300" height="610" loading="lazy"></div>
+      <figcaption>Não deu? O motivo fica anotado</figcaption>
+    </figure>
+  </div>
+</section>
 
-<footer>
-  <p>Contato: <a href="mailto:fl.campos@gmail.com">fl.campos@gmail.com</a></p>
+<section class="aviso">
+  <p>
+    <strong>Um aviso que importa.</strong> Lupita organiza e lembra: não
+    receita, não calcula dose e não substitui o veterinário. Não é um
+    dispositivo médico e não diagnostica nem trata doença alguma — na dúvida,
+    fale com quem atende o seu animal.
+  </p>
+</section>
+
+<footer class="rodape">
+  <nav>
+    <a href="privacidade.html">Política de Privacidade</a>
+    <a href="mailto:fl.campos@gmail.com">fl.campos@gmail.com</a>
+  </nav>
+  <p>© 2026 Felipe Campos</p>
 </footer>
 
-</main>
 </body>
 </html>
